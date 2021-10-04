@@ -10,7 +10,7 @@ import UIKit
 open class FirstViewController: UIViewController {
     
     public func changeBackgroundColor(withColor color: UIColor) {
-        self.view.backgroundColor = color
+        self.view.backgroundColor = color 
     }
     
 }
