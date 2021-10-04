@@ -1,0 +1,11 @@
+framework module poc_framework {
+  umbrella header "poc_framework.h"
+
+  export *
+  module * { export * }
+}
+
+module poc_framework.Swift {
+    header "poc_framework-Swift.h"
+    requires objc
+}
